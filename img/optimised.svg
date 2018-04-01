@@ -1,0 +1,315 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" viewBox="0 0 842 1196.4" stroke-linejoin="round">
+<style>
+  .a{
+    fill:#c8c8c8;
+  }
+  .b{
+    fill:#565b5b;
+    stroke-width:4;
+    stroke:#fff;
+  }
+  .c{
+    fill:#fff;
+    stroke-width:7;
+    stroke:#fff;
+  }
+  .d{
+    fill:#fb4600;
+  }
+  .e{
+    fill:#fff;
+    text-anchor:middle;
+  }
+  .f{
+    fill:none;
+    stroke-width:7;
+    stroke:#fff;
+  }
+  .g{
+    fill:#fff;
+  }
+  .h{
+    fill:#4cd100;
+  }
+  .i{
+    fill:none;
+    stroke-width:2;
+    stroke:#fcfcfc;
+  }
+  .j{
+    fill:#fcfcfc;
+  }
+</style>
+  <g id="Ebene 1">
+    <path d="M0.5 0L842.5 0 842.5 1196.4 0.5 1196.4 0.5 0Z" class="a"/>
+    <path d="M125.3 704.6C125.3 662 133.6 621.4 148.6 584.5 163.5 547.6 197.3 503.7 210.3 485.1 210.3 485.1 142.4 382.3 208 245.1 208 245.1 265.2 118.4 416.7 113.4 416.7 113.4 553.6 106.3 626.4 234.8 626.4 234.8 702.9 349.1 630.1 486.5 630.1 486.5 678.5 547.6 693.4 584.5 708.4 621.4 716.7 662 716.7 704.6 716.7 747.1 708.4 787.7 693.4 824.6 678.5 861.5 656.8 894.7 630.1 922.6 603.3 950.5 571.5 973.1 536.1 988.7 500.7 1004.3 461.8 1013 421 1013 380.2 1013 341.3 1004.3 305.9 988.7 270.5 973.1 238.7 950.5 211.9 922.6 185.2 894.7 163.5 861.5 148.6 824.6 133.6 787.7 125.3 747.1 125.3 704.6Z" class="b"/>
+    <path d="M447 564.8L447 560.4C536.1 547.3 604.7 466.6 604.7 369.1 604.7 262.4 522.7 175.8 421.5 175.8 320.3 175.8 238.3 262.4 238.3 369.1 238.3 423.4 259.6 472.5 293.8 507.6" style="fill:#00c3ff;stroke-width:4;stroke:#fff"/>
+    <path d="M285.9 370.6C285.9 290.9 346.6 226.3 421.6 226.3 496.6 226.3 557.3 290.9 557.3 370.6 557.3 450.3 496.6 514.9 421.6 514.9 346.6 514.9 285.9 450.3 285.9 370.6Z" style="fill:#fb4600;stroke-width:4;stroke:#fff"/>
+    <path d="M195.8 704C195.8 572.5 296.9 465.8 421.6 465.8 546.3 465.8 647.4 572.5 647.4 704 647.4 835.5 546.3 942.2 421.6 942.2 296.9 942.2 195.8 835.5 195.8 704Z" style="fill:#fb4600;stroke-width:4.8;stroke:#fff"/>
+    <path d="M245 705.6C245 600.3 325.5 514.9 424.9 514.9 524.2 514.9 604.8 600.3 604.8 705.6 604.8 810.9 524.2 896.3 424.9 896.3 325.5 896.3 245 810.9 245 705.6Z" style="fill:#00c3ff;stroke-width:4.8;stroke:#fff"/>
+    <path d="M486.6 301.6L573.8 211.7" class="c"/>
+    <path d="M560.1 703.7L645.1 704" class="c"/>
+    <path d="M517.4 810L624.9 926.7" style="fill:none;stroke-width:14;stroke:#fff"/>
+    <path d="M421.3 851.5L420.8 939.9" class="c"/>
+    <path d="M263.4 871L323.7 807.3" class="c"/>
+    <path d="M198.1 703.8L283.4 703.9" class="c"/>
+    <path d="M263.2 536.4L324.5 601.7" class="c"/>
+    <path d="M421.6 275C371.4 275 330.7 317.9 330.7 370.9 330.7 413.7 357.5 450.9 395.8 462.9L396.9 463.2 446 458.6 448.8 458.1C481.6 451.4 512.5 413.7 512.5 370.9 512.5 317.9 471.8 275 421.6 275Z" class="b"/>
+    <path d="M396.9 563.6L395.9 563.8C332 576.7 285 635.9 285 705.4 285 784.9 346.2 849.4 421.6 849.4 497 849.4 558.2 784.9 558.2 705.4 558.2 635.9 511.2 576.7 447.3 563.8L446.3 563.6 396.9 563.6Z" style="fill:#565b5b;stroke-width:4.8;stroke:#fff"/>
+    <path d="M396.6 443.6C396.6 443.6 395.3 432 421.7 432 447.1 432 445.4 444.4 445.4 444.4L447.1 581.8C447.1 581.8 447.1 596.3 421.6 596.3 395.3 596.3 396 582.8 396 582.8L396.6 443.6Z" style="fill:#4cd100;stroke-width:7;stroke:#fff"/>
+    <path d="M449.1 461.6C449.1 461.6 463.4 461.6 486.1 441.4L516.7 472.6C486.4 506.2 449.8 507.8 449.8 507.8L449.1 461.6Z" class="d"/>
+    <path d="M357.1 441.3C373.8 458.2 393 464 393 464L393 465.4C362.9 469.7 339 479.7 321.9 488.6 304.8 497.5 294.8 504.7 294.8 504.7L310.2 488.8 325.6 473 341.3 457.1 357.1 441.3Z" class="a"/>
+    <path d="M334.7 462L315.6 482.7C318.4 486.3 323.2 489.1 323.2 489.1 323.2 489.1 336.2 481.9 353.6 476.3 353.6 476.3 341.7 473.3 334.7 462Z" style="fill:#ff0086;stroke-width:2;stroke:#fffefe"/>
+    <path d="M450.2 557.5L450.2 562.1C491.2 570.9 518.2 600.1 518.2 600.1L579.2 536.1C561.5 517.7 547.9 508.9 547.9 508.9 499.7 553.1 450.2 557.5 450.2 557.5Z" class="a"/>
+    <path d="M518.8 601.7L580.2 536.7" class="c"/>
+    <path d="M545.8 547.9C530.7 529.3 519 528.1 519 528.1 519 528.1 503.3 538.2 494.8 542.3 494.8 542.3 512.9 544.4 528.9 564L524.2 568.9 550.6 568.5 549.6 543.9 545.8 547.9Z" style="fill:#ff0086;stroke-width:2;stroke:#fff"/>
+    <path d="M447.5 511.8C447.5 511.8 484.6 505.9 520.3 471.2L551.6 504.4C505.8 550.7 447.5 557.7 447.5 557.7L447.5 511.8Z" style="fill:#00b7ff;stroke-width:4;stroke:#fff"/>
+    <path d="M293.2 233.4L356.8 301" class="c"/>
+    <path d="M486.7 438.1L551.1 503" class="c"/>
+    <path d="M293.8 504.7L324.1 473.2 355.5 439.3" style="fill:#fff;stroke-width:7;stroke:#fffefe"/>
+    <path d="M292.9 238.3L354.4 303.3C328.6 331.6 328.8 365.9 328.8 365.9L244 367.2C244 367.2 238.2 308.2 292.9 238.3Z" fill="#00c0ff"/>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 540.946 635.01)" class="e">
+      <tspan x="38.2" y="27" textLength="16.6846">
+        
+1
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 536.384 756.724)" class="e">
+      <tspan x="38.2" y="27" textLength="16.6846">
+        
+2
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 459.088 844.199)" class="e">
+      <tspan x="38.2" y="27" textLength="16.6846">
+        
+3
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 334.139 847.126)" class="e">
+      <tspan x="38.2" y="27" textLength="16.6846">
+        
+4
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 248.622 751.079)" class="e">
+      <tspan x="38.2" y="27" textLength="16.6846">
+        
+5
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 245.239 630.927)" class="e">
+      <tspan x="38.2" y="27" textLength="16.6846">
+        
+6
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 540.006 420.059)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+10
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 541.674 294.242)" class="e">
+      <tspan x="38.2" y="27" textLength="31.1426">
+        
+11
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 457.676 197.414)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+12
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 334.45 198.957)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+13
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 257.638 303.587)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+14
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 325.321 543.589)" class="e">
+      <tspan x="38.2" y="27" textLength="16.6846">
+        
+7
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(2.17805 0 0 4.48509 338.237 458.334)" class="e">
+      <tspan x="38.2" y="27" textLength="16.6846">
+        
+8
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 466.354 504.36)" class="e">
+      <tspan x="38.2" y="27" textLength="16.6846">
+        
+9
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 580.896 611.794)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+16
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 582.826 773.286)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+17
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 472.519 889.78)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+18
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 308.862 885.338)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+19
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 209.013 776.181)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+20
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 207.749 611.494)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+21
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 310.531 495.286)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+22
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 446.694 462.034)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+24
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 497.418 399.149)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+25
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 497.147 310.344)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+26
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 437.24 247.105)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+27
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 351.935 246.727)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+28
+      </tspan>
+    </text>
+    <path d="M403.5 476.7L439.3 476.5" style="fill:#565b5b;stroke-width:2;stroke:#fff"/>
+    <text font-family="ArialMT" font-size="30" transform="matrix(0.750889 0 0 0.801381 391.981 446.484)" class="e">
+      <tspan x="38.2" y="27" textLength="33.3691">
+        
+23
+      </tspan>
+    </text>
+    <text font-family="Arial-BoldItalicMT" font-size="20" transform="matrix(1 0 0 1 286.315 749.786)" class="e">
+      <tspan x="142.1" y="18" textLength="142.256">
+        
+Development &#x2F;
+
+      </tspan>
+      <tspan x="139.3" y="41" textLength="123.33">
+        
+BETA testing
+      </tspan>
+    </text>
+    <path d="M514 368.2L602.8 368.5" class="f"/>
+    <path d="M328.8 369.3L240.2 369.3" class="f"/>
+    <text font-family="Arial-BoldItalicMT" font-size="20" transform="matrix(1 0 0 1 332.82 398.071)" class="e">
+      <tspan x="93.9" y="18" textLength="117.783">
+        
+Stabilization
+      </tspan>
+    </text>
+    <path d="M421.8 345.2C412.3 345.2 404.1 351.1 400.9 359.6L396.1 354.8 400.3 366 407.7 356.5 402.3 359.9C405.5 352.5 413.4 346.9 421.8 346.9 433.3 346.9 442.6 356 442.6 367.2 442.6 378.5 433.3 387.6 421.8 387.6 410.4 387.6 401.1 379.8 401.1 368.6L400.2 368.6 399.4 368.6C399.4 380.7 409.5 389.2 421.8 389.2 434.2 389.2 444.3 379.4 444.3 367.2 444.3 355 434.2 345.2 421.8 345.2Z" class="g"/>
+    <path d="M422.3 345.2C412.8 345.2 404.5 351.1 401.3 359.6L396.5 354.8 400.8 366 408.1 356.5 402.7 359.9C406 352.5 413.9 346.9 422.3 346.9 433.8 346.9 443.1 356 443.1 367.2 443.1 378.5 433.8 387.6 422.3 387.6 410.8 387.6 401.6 379.8 401.6 368.6L400.7 368.6 399.9 368.6C399.9 380.7 409.9 389.2 422.3 389.2 434.7 389.2 444.8 379.4 444.8 367.2 444.8 355 434.7 345.2 422.3 345.2Z" class="g"/>
+    <path d="M425.8 667.5C405.8 667.5 390.1 682.2 390.1 702.2L391.1 702.2 392.1 702.2C392.1 683.3 406.9 669.5 425.8 669.5 444.6 669.5 459.9 684.8 459.9 703.7 459.9 722.6 444.6 737.9 425.8 737.9 410.5 737.9 397.4 727.7 393.2 713.4L399 716.9 390.9 705 385.1 718.3 391 712.9C395.1 728.6 409.2 739.9 425.8 739.9 445.7 739.9 461.9 723.7 461.9 703.7 461.9 683.7 445.7 667.5 425.8 667.5Z" class="g"/>
+    <path d="M597.4 886.8L606.3 878.1 562.4 832.3C555 841 555.1 840.6 555.1 840.6L597.4 886.8Z" class="h"/>
+    <path d="M561.5 908C561.5 902.3 566.5 897.6 572.6 897.6 578.7 897.6 583.7 902.3 583.7 908 583.7 913.8 578.7 918.5 572.6 918.5 566.5 918.5 561.5 913.8 561.5 908Z" class="d"/>
+    <path d="M383 299.5C383 293.8 388 289.1 394.2 289.1 400.3 289.1 405.3 293.8 405.3 299.5 405.3 305.3 400.3 310 394.2 310 388 310 383 305.3 383 299.5Z" fill="#ff0086"/>
+    <path d="M538.4 205.7C538.4 200 543.4 195.3 549.5 195.3 555.7 195.3 560.6 200 560.6 205.7 560.6 211.5 555.7 216.2 549.5 216.2 543.4 216.2 538.4 211.5 538.4 205.7Z" fill="#fff600"/>
+    <path d="M413.7 114.9L413.7 304.1C413.7 307.6 416.8 310.3 420.7 310.3 424.5 310.3 427.7 307.6 427.7 304.1L427.7 114.9 413.7 114.9Z" class="g"/>
+    <path d="M421.1 600.1L421.3 622.5" style="fill:#ff0086;stroke-width:14;stroke:#fff"/>
+        <path d="M544.7 955.5C562.8 948.8 591.3 927.6 601.7 910.6" class="i"/>
+        <path d="M547.9 947.2L542.9 955.3 542.2 956.3 543.4 956.7 552.3 960.1C552.8 960.3 553.4 960 553.6 959.5 553.7 959 553.5 958.4 553 958.2L544.1 954.9 544.6 956.3 549.6 948.3C549.9 947.8 549.7 947.2 549.3 946.9 548.8 946.6 548.2 946.8 547.9 947.2Z" class="j"/>
+        <path d="M473.4 612.2C457.5 628.7 422.3 633.9 416.9 626.5" class="i"/>
+        <path d="M474.6 621L475 611.5 475.1 610.3 473.9 610.5 464.5 612C464 612 463.6 612.6 463.7 613.1 463.8 613.7 464.3 614 464.8 613.9L474.2 612.5 473 611.4 472.6 620.9C472.6 621.5 473 621.9 473.6 622 474.1 622 474.6 621.6 474.6 621Z" class="j"/>
+    <text font-family="Arial-BoldMT" font-size="16" transform="matrix(0.773228 -0.634128 0.634128 0.773228 551.199 958.238)" class="e">
+      <tspan x="35.7" y="14" textLength="60.4453">
+        
+Monday
+      </tspan>
+    </text>
+    <text font-family="Arial-BoldMT" font-size="16" transform="matrix(0.999995 -0.00328476 0.00328476 0.999995 410.38 632.838)" class="e">
+      <tspan x="35.7" y="14" textLength="60.4453">
+        
+Monday
+      </tspan>
+    </text>
+    <text font-family="Arial-BoldMT" font-size="16" transform="matrix(0.984531 -0.175212 0.175212 0.984531 345.834 128.791)" class="e">
+      <tspan x="35.7" y="14" textLength="60.4453">
+        
+Monday
+      </tspan>
+    </text>
+        <path d="M347 153.6C352.9 150.3 371.6 141.9 414.4 138.1" class="i"/>
+        <path d="M348.2 144.8L345.2 153.8 344.8 154.9 346 155.1 355.4 156.3C355.9 156.4 356.4 156 356.5 155.5 356.6 154.9 356.2 154.4 355.6 154.3L346.2 153.1 347.1 154.4 350.1 145.5C350.3 144.9 350 144.4 349.5 144.2 349 144 348.4 144.3 348.2 144.8Z" class="j"/>
+    <path d="M236 439.6L239.6 450.4 255.3 444.8 251 434.5 236 439.6Z" class="d"/>
+    <path d="M240.4 372.5L329 372.8C330.1 413.3 353.7 437.2 353.7 437.2L291.9 502.8C291.9 502.8 239.3 450 240.4 372.5Z" class="h"/>
+    <text font-family="ArialMT" font-size="40" transform="matrix(1.56886 0 0 2.42331 232.383 370.187)" class="e">
+      <tspan x="38.2" y="36" textLength="44.4922">
+        
+15
+      </tspan>
+    </text>
+    <path d="M492.3 353.8L492.3 364.9 555.3 364.9C555.1 359.4 554.5 353.9 554.5 353.9L492.3 353.8Z" class="h"/>
+    <path d="M432.5 611.6C432.5 605.9 437.5 601.2 443.6 601.2 449.7 601.2 454.7 605.9 454.7 611.6 454.7 617.4 449.7 622.1 443.6 622.1 437.5 622.1 432.5 617.4 432.5 611.6Z" fill="#00c3ff"/>
+    <text font-family="ArialMT" font-size="26" transform="matrix(1 0 0 1 189.079 1049.45)" style="fill:#565b5b;text-anchor:middle">
+      <tspan x="243.4" y="24" textLength="468.292">
+        
+Development8 - Version: 1.0 (20180312)
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="15" transform="matrix(1 0 0 1 394.885 1130.81)" style="fill:#565b5b;text-anchor:end">
+      <tspan x="397.6" y="14" textLength="312.063">
+        
+Author: Philipp Bonin (mail@development8.de)
+      </tspan>
+    </text>
+    <text font-family="ArialMT" font-size="20" transform="matrix(1 0 0 1 394.885 1106.82)" style="fill:#3c3c3c;text-anchor:end">
+      <tspan x="397.6" y="18" textLength="153.447">
+        
+development8.de
+      </tspan>
+    </text>
+  </g>
+</svg>
