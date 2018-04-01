@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator Pro for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 841.995 1196.37">
+<metadata>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="Units" value="Millimeters"/>
+<vectornator:setting key="DynamicGuides" value="1"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+<vectornator:setting key="ShowGrid" value="1"/>
+<vectornator:setting key="GridSpacing" value="36"/>
+</metadata>
+<defs/>
+<g id="Ebene 1" vectornator:layerName="Ebene 1">
+<path d="M0.539078-1.16542e-05L842.534-1.16542e-05L842.534+1196.37L0.539078+1196.37L0.539078-1.16542e-05Z" opacity="1" fill="#c8c8c8"/>
+<path d="M125.321+704.566C125.321+661.988+133.595+621.425+148.557+584.531C163.519+547.637+197.283+503.712+210.316+485.052C210.316+485.052+142.438+382.275+208.033+245.057C208.033+245.057+265.218+118.408+416.702+113.366C416.702+113.366+553.566+106.252+626.442+234.772C626.442+234.772+702.872+349.064+630.072+486.508C630.072+486.508+678.476+547.637+693.438+584.531C708.4+621.425+716.674+661.988+716.674+704.566C716.674+747.145+708.4+787.708+693.438+824.602C678.476+861.496+656.825+894.721+630.072+922.624C603.319+950.527+571.462+973.108+536.088+988.713C500.714+1004.32+461.822+1012.95+420.998+1012.95C380.173+1012.95+341.281+1004.32+305.907+988.713C270.533+973.108+238.676+950.527+211.923+922.624C185.169+894.721+163.519+861.496+148.557+824.602C133.595+787.708+125.321+747.145+125.321+704.566Z" stroke="#ffffff" stroke-width="4" fill="#565b5b" opacity="1"/>
+<path d="M446.999+564.802L446.999+560.419C536.093+547.327+604.673+466.643+604.673+369.063C604.673+262.353+522.66+175.848+421.492+175.848C320.325+175.848+238.312+262.353+238.312+369.062C238.312+423.377+259.56+472.458+293.767+507.561" stroke="#ffffff" stroke-width="4" fill="#00c3ff" opacity="1"/>
+<path d="M285.874+370.613C285.874+290.907+346.645+226.293+421.61+226.293C496.574+226.293+557.345+290.907+557.345+370.613C557.345+450.319+496.574+514.933+421.61+514.933C346.645+514.933+285.874+450.319+285.874+370.613Z" stroke="#ffffff" stroke-width="4" fill="#fb4600" opacity="1"/>
+<path d="M195.8+704.002C195.8+572.469+296.899+465.84+421.61+465.84C546.321+465.84+647.419+572.469+647.419+704.002C647.419+835.535+546.321+942.164+421.61+942.164C296.899+942.164+195.8+835.535+195.8+704.002Z" stroke="#ffffff" stroke-width="4.78" fill="#fb4600" opacity="1"/>
+<path d="M244.989+705.598C244.989+600.297+325.533+514.933+424.89+514.933C524.246+514.933+604.79+600.297+604.79+705.598C604.79+810.899+524.246+896.262+424.89+896.262C325.533+896.262+244.989+810.899+244.989+705.598Z" stroke="#ffffff" stroke-width="4.78" fill="#00c3ff" opacity="1"/>
+<path d="M486.634+301.568L573.83+211.661" stroke="#ffffff" stroke-width="7.04" stroke-linecap="round" fill="#ffffff" opacity="1"/>
+<path d="M560.13+703.704L645.095+704.038" stroke="#ffffff" stroke-width="7.04" fill="#ffffff" opacity="1"/>
+<path d="M517.353+809.959L624.948+926.677" stroke="#ffffff" stroke-width="14" fill="none" opacity="1"/>
+<path d="M421.258+851.463L420.776+939.941" stroke="#ffffff" stroke-width="7.04" fill="#ffffff" opacity="1"/>
+<path d="M263.371+870.998L323.677+807.346" stroke="#ffffff" stroke-width="7.04" fill="#ffffff" opacity="1"/>
+<path d="M198.088+703.751L283.414+703.882" stroke="#ffffff" stroke-width="7.04" fill="#ffffff" opacity="1"/>
+<path d="M263.166+536.392L324.523+601.664" stroke="#ffffff" stroke-width="7.04" fill="#ffffff" opacity="1"/>
+<path d="M421.591+274.952C371.373+274.952+330.669+317.885+330.669+370.853C330.669+413.661+357.488+450.941+395.839+462.863L396.932+463.204L445.975+458.587L448.803+458.084C481.557+451.419+512.512+413.662+512.512+370.853C512.512+317.885+471.808+274.952+421.591+274.952Z" stroke="#ffffff" stroke-width="4" fill="#565b5b" opacity="1"/>
+<path d="M396.932+563.633L395.929+563.833C331.975+576.658+285.008+635.877+285.008+705.357C285.008+784.925+346.155+849.434+421.591+849.434C497.026+849.434+558.173+784.925+558.173+705.357C558.173+635.877+511.207+576.658+447.253+563.833L446.25+563.633L396.932+563.633Z" stroke="#ffffff" stroke-width="4.78" fill="#565b5b" opacity="1"/>
+<path d="M396.612+443.636C396.612+443.636+395.301+432.01+421.73+432.01C447.081+432.01+445.437+444.38+445.437+444.38L447.081+581.779C447.081+581.779+447.081+596.311+421.624+596.311C395.301+596.311+395.994+582.755+395.994+582.755L396.612+443.636Z" stroke="#ffffff" stroke-width="7.04" fill="#4cd100" opacity="1"/>
+<path d="M449.128+461.603C449.128+461.603+463.414+461.606+486.061+441.365L516.653+472.624C486.358+506.189+449.844+507.795+449.844+507.795L449.128+461.603Z" opacity="1" fill="#fb4600"/>
+<path d="M357.123+441.337C373.817+458.232+393.02+464.02+393.02+464.02L392.994+465.424C362.947+469.681+339.039+479.742+321.928+488.614C304.76+497.516+294.817+504.699+294.817+504.699L310.215+488.829L325.613+472.96L341.312+457.138L357.123+441.337Z" opacity="1" fill="#c8c8c8"/>
+<path d="M334.726+462.018L315.592+482.687C318.392+486.299+323.156+489.108+323.156+489.108C323.156+489.108+336.202+481.912+353.614+476.319C353.614+476.319+341.748+473.279+334.726+462.018Z" stroke="#fffefe" stroke-width="2" fill="#ff0086" opacity="1"/>
+<path d="M450.234+557.529L450.243+562.08C491.207+570.904+518.227+600.137+518.227+600.137L579.224+536.083C561.486+517.701+547.853+508.886+547.853+508.886C499.694+553.075+450.234+557.529+450.234+557.529Z" opacity="1" fill="#c8c8c8"/>
+<path d="M518.844+601.716L580.244+536.682" stroke="#ffffff" stroke-width="7.04" fill="#ffffff" opacity="1"/>
+<path d="M545.824+547.908C530.733+529.332+518.967+528.057+518.967+528.057C518.967+528.057+503.253+538.181+494.849+542.295C494.849+542.295+512.886+544.384+528.857+564.007L524.199+568.935L550.559+568.545L549.626+543.931L545.824+547.908Z" stroke="#ffffff" stroke-width="2" fill="#ff0086" opacity="1"/>
+<path d="M447.512+511.796C447.512+511.796+484.641+505.87+520.253+471.242L551.612+504.381C505.842+550.726+447.528+557.723+447.528+557.723L447.512+511.796Z" stroke="#ffffff" stroke-width="4" fill="#00b7ff" opacity="1"/>
+<path d="M293.18+233.363L356.792+301.014" stroke="#ffffff" stroke-width="7.04" fill="#ffffff" opacity="1"/>
+<path d="M486.734+438.05L551.134+502.966" stroke="#ffffff" stroke-width="7.04" fill="#ffffff" opacity="1"/>
+<path d="M293.822+504.699L324.115+473.208L355.461+439.278" stroke="#fffefe" stroke-width="7.04" fill="#ffffff" opacity="1"/>
+<path d="M292.874+238.328L354.352+303.263C328.58+331.614+328.841+365.93+328.841+365.93L244.023+367.23C244.023+367.23+238.247+308.225+292.874+238.328Z" opacity="1" fill="#00c0ff"/>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="1" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 540.946 635.01)">
+<tspan x="38.1907" y="27" textLength="16.6846">
+1</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="2" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 536.384 756.724)">
+<tspan x="38.1907" y="27" textLength="16.6846">
+2</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="3" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 459.088 844.199)">
+<tspan x="38.1907" y="27" textLength="16.6846">
+3</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="4" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 334.139 847.126)">
+<tspan x="38.1907" y="27" textLength="16.6846">
+4</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="5" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 248.622 751.079)">
+<tspan x="38.1907" y="27" textLength="16.6846">
+5</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="6" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 245.239 630.927)">
+<tspan x="38.1907" y="27" textLength="16.6846">
+6</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="10" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 540.006 420.059)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+10</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="11" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 541.674 294.242)">
+<tspan x="38.1907" y="27" textLength="31.1426">
+11</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="12" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 457.676 197.414)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+12</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="13" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 334.45 198.957)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+13</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="14" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 257.638 303.587)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+14</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="7" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 325.321 543.589)">
+<tspan x="38.1907" y="27" textLength="16.6846">
+7</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="8" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(2.17805 0 0 4.48509 338.237 458.334)">
+<tspan x="38.1907" y="27" textLength="16.6846">
+8</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="9" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 466.354 504.36)">
+<tspan x="38.1907" y="27" textLength="16.6846">
+9</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="16" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 580.896 611.794)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+16</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="17" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 582.826 773.286)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+17</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="18" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 472.519 889.78)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+18</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="19" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 308.862 885.338)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+19</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="20" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 209.013 776.181)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+20</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="21" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 207.749 611.494)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+21</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="22" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 310.531 495.286)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+22</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="24" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 446.694 462.034)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+24</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="25" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 497.418 399.149)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+25</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="26" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 497.147 310.344)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+26</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="27" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 437.24 247.105)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+27</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="28" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 351.935 246.727)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+28</tspan>
+</text>
+<path d="M403.486+476.693L439.343+476.521" stroke="#ffffff" stroke-width="2" fill="#565b5b" opacity="1"/>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="23" fill="#ffffff" font-size="30" vectornator:width="76.3814" opacity="1" transform="matrix(0.750889 0 0 0.801381 391.981 446.484)">
+<tspan x="38.1907" y="27" textLength="33.3691">
+23</tspan>
+</text>
+<text x="0" font-family="Arial-BoldItalicMT" y="0" text-anchor="middle" vectornator:text="Development&#x20;/&#xA;BETA&#x20;testing" fill="#ffffff" font-size="20" vectornator:width="278.639" opacity="1" transform="matrix(1 0 0 1 286.315 749.786)">
+<tspan x="142.098" y="18" textLength="142.256">
+Development /
+</tspan>
+<tspan x="139.32" y="41" textLength="123.33">
+BETA testing</tspan>
+</text>
+<path d="M514.019+368.248L602.772+368.497" stroke="#ffffff" stroke-width="7.04" fill="none" opacity="1"/>
+<path d="M328.845+369.349L240.213+369.29" stroke="#ffffff" stroke-width="7.04" fill="none" opacity="1"/>
+<text x="0" font-family="Arial-BoldItalicMT" y="0" text-anchor="middle" vectornator:text="Stabilization" fill="#ffffff" font-size="20" vectornator:width="187.73" opacity="1" transform="matrix(1 0 0 1 332.82 398.071)">
+<tspan x="93.8652" y="18" textLength="117.783">
+Stabilization</tspan>
+</text>
+<path d="M421.844+345.186C412.346+345.186+404.09+351.075+400.875+359.592L396.094+354.842L400.335+366.019L407.688+356.467L402.292+359.863C405.523+352.546+413.43+346.873+421.844+346.874C433.318+346.874+442.625+355.977+442.625+367.217C442.625+378.458+433.318+387.592+421.844+387.592C410.37+387.592+401.097+379.812+401.097+368.571L400.213+368.571L399.41+368.571C399.41+380.741+409.454+389.248+421.844+389.249C434.233+389.249+444.312+379.387+444.312+367.217C444.312+355.047+434.233+345.186+421.844+345.186Z" opacity="1" fill="#ffffff"/>
+<path d="M422.298+345.186C412.801+345.186+404.545+351.075+401.33+359.592L396.548+354.842L400.79+366.019L408.142+356.467L402.747+359.863C405.978+352.546+413.884+346.873+422.298+346.874C433.773+346.874+443.08+355.977+443.08+367.217C443.08+378.458+433.773+387.592+422.298+387.592C410.824+387.592+401.552+379.812+401.552+368.571L400.667+368.571L399.864+368.571C399.864+380.741+409.909+389.248+422.298+389.249C434.688+389.249+444.767+379.387+444.767+367.217C444.767+355.047+434.688+345.186+422.298+345.186Z" opacity="1" fill="#ffffff"/>
+<path d="M425.771+667.469C405.817+667.469+390.067+682.155+390.067+702.162L391.067+702.162L392.067+702.162C392.067+683.259+406.923+669.469+425.771+669.469C444.62+669.469+459.928+684.816+459.928+703.719C459.928+722.622+444.62+737.938+425.771+737.938C410.481+737.938+397.404+727.718+393.178+713.407L398.99+716.938L390.857+705.005L385.053+718.313L390.959+712.907C395.077+728.62+409.203+739.938+425.771+739.938C445.726+739.938+461.928+723.726+461.928+703.719C461.928+683.713+445.726+667.469+425.771+667.469Z" opacity="1" fill="#ffffff"/>
+<path d="M597.376+886.844L606.25+878.099L562.448+832.275C554.968+840.991+555.129+840.638+555.129+840.638L597.376+886.844Z" opacity="1" fill="#4cd100"/>
+<path d="M561.481+908.023C561.481+902.252+566.453+897.573+572.585+897.573C578.718+897.573+583.689+902.252+583.689+908.023C583.689+913.795+578.718+918.473+572.585+918.473C566.453+918.473+561.481+913.795+561.481+908.023Z" opacity="1" fill="#fb4600"/>
+<path d="M383.046+299.54C383.046+293.769+388.018+289.09+394.15+289.09C400.283+289.09+405.254+293.769+405.254+299.54C405.254+305.312+400.283+309.99+394.15+309.99C388.018+309.99+383.046+305.312+383.046+299.54Z" opacity="1" fill="#ff0086"/>
+<path d="M538.435+205.734C538.435+199.963+543.406+195.284+549.539+195.284C555.672+195.284+560.643+199.963+560.643+205.734C560.643+211.506+555.672+216.184+549.539+216.184C543.406+216.184+538.435+211.506+538.435+205.734Z" opacity="1" fill="#fff600"/>
+<path d="M413.656+114.873L413.656+304.117C413.656+307.556+416.79+310.344+420.656+310.344C424.522+310.344+427.656+307.556+427.656+304.117L427.656+114.873L413.656+114.873Z" opacity="1" fill="#ffffff"/>
+<path d="M421.066+600.137L421.337+622.486" stroke="#ffffff" stroke-width="14" stroke-linecap="round" fill="#ff0086" opacity="1"/>
+<g opacity="1">
+<g>
+<path d="M544.686+955.49C562.822+948.794+591.331+927.557+601.739+910.617" stroke-width="2" stroke="#fcfcfc" fill="none"/>
+<path d="M547.895+947.239L542.89+955.284L542.244+956.322L543.389+956.749L552.266+960.062C552.784+960.256+553.36+959.993+553.553+959.475C553.746+958.958+553.483+958.382+552.966+958.189L544.089+954.876L544.588+956.341L549.594+948.296C549.885+947.827+549.742+947.21+549.273+946.918C548.804+946.626+548.187+946.77+547.895+947.239Z" fill="#fcfcfc"/>
+</g>
+</g>
+<g opacity="1">
+<g>
+<path d="M473.38+612.237C457.518+628.673+422.294+633.881+416.93+626.462" stroke-width="2" stroke="#fcfcfc" fill="none"/>
+<path d="M474.622+621.003L475.046+611.537L475.101+610.316L473.893+610.504L464.531+611.963C463.986+612.048+463.612+612.559+463.697+613.105C463.782+613.65+464.293+614.024+464.839+613.939L474.201+612.48L473.048+611.448L472.624+620.913C472.599+621.465+473.026+621.932+473.578+621.957C474.13+621.982+474.597+621.555+474.622+621.003Z" fill="#fcfcfc"/>
+</g>
+</g>
+<text x="0" font-family="Arial-BoldMT" y="0" text-anchor="middle" vectornator:text="Monday" fill="#ffffff" font-size="16" vectornator:width="71.3237" opacity="1" transform="matrix(0.773228 -0.634128 0.634128 0.773228 551.199 958.238)">
+<tspan x="35.6618" y="14" textLength="60.4453">
+Monday</tspan>
+</text>
+<text x="0" font-family="Arial-BoldMT" y="0" text-anchor="middle" vectornator:text="Monday" fill="#ffffff" font-size="16" vectornator:width="71.3237" opacity="1" transform="matrix(0.999995 -0.00328476 0.00328476 0.999995 410.38 632.838)">
+<tspan x="35.6618" y="14" textLength="60.4453">
+Monday</tspan>
+</text>
+<text x="0" font-family="Arial-BoldMT" y="0" text-anchor="middle" vectornator:text="Monday" fill="#ffffff" font-size="16" vectornator:width="71.3237" opacity="1" transform="matrix(0.984531 -0.175212 0.175212 0.984531 345.834 128.791)">
+<tspan x="35.6618" y="14" textLength="60.4453">
+Monday</tspan>
+</text>
+<g opacity="1">
+<g>
+<path d="M346.955+153.565C352.853+150.281+371.603+141.897+414.421+138.06" stroke-width="2" stroke="#fcfcfc" fill="none"/>
+<path d="M348.233+144.804L345.159+153.767L344.763+154.923L345.975+155.083L355.369+156.321C355.916+156.393+356.418+156.008+356.491+155.46C356.563+154.913+356.177+154.41+355.63+154.338L346.236+153.1L347.051+154.416L350.125+145.453C350.304+144.931+350.026+144.362+349.504+144.183C348.981+144.004+348.412+144.282+348.233+144.804Z" fill="#fcfcfc"/>
+</g>
+</g>
+<path d="M236.049+439.56L239.625+450.436L255.303+444.823L250.962+434.511L236.049+439.56Z" opacity="1" fill="#fb4600"/>
+<path d="M240.367+372.547L328.976+372.782C330.122+413.268+353.735+437.22+353.735+437.22L291.928+502.821C291.928+502.821+239.276+450.005+240.367+372.547Z" opacity="1" fill="#4cd100"/>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="15" fill="#ffffff" font-size="40" vectornator:width="76.3814" opacity="1" transform="matrix(1.56886 0 0 2.42331 232.383 370.187)">
+<tspan x="38.1907" y="36" textLength="44.4922">
+15</tspan>
+</text>
+<path d="M492.276+353.784L492.29+364.89L555.294+364.893C555.132+359.395+554.497+353.867+554.497+353.867L492.276+353.784Z" opacity="1" fill="#4cd100"/>
+<path d="M432.498+611.649C432.498+605.877+437.469+601.198+443.602+601.198C449.735+601.198+454.706+605.877+454.706+611.649C454.706+617.42+449.735+622.099+443.602+622.099C437.469+622.099+432.498+617.42+432.498+611.649Z" opacity="1" fill="#00c3ff"/>
+<text x="0" font-family="ArialMT" y="0" text-anchor="middle" vectornator:text="Development8&#x20;-&#x20;Version:&#x20;1.0&#x20;(20180312)" fill="#565b5b" font-size="26" vectornator:width="486.839" opacity="1" transform="matrix(1 0 0 1 189.079 1049.45)">
+<tspan x="243.419" y="24" textLength="468.292">
+Development8 - Version: 1.0 (20180312)</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="end" vectornator:text="Author:&#x20;Philipp&#x20;Bonin&#x20;(mail@development8.de)" fill="#565b5b" font-size="15" vectornator:width="397.628" opacity="1" transform="matrix(1 0 0 1 394.885 1130.81)">
+<tspan x="397.628" y="14" textLength="312.063">
+Author: Philipp Bonin (mail@development8.de)</tspan>
+</text>
+<text x="0" font-family="ArialMT" y="0" text-anchor="end" vectornator:text="development8.de" fill="#3c3c3c" font-size="20" vectornator:width="397.628" opacity="1" transform="matrix(1 0 0 1 394.885 1106.82)">
+<tspan x="397.628" y="18" textLength="153.447">
+development8.de</tspan>
+</text>
+</g>
+</svg>
+
