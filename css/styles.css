@@ -18,3 +18,177 @@ svg {
   background-color:#c8c8c8;
 }
 
+svg .a{
+    clip-rule:evenodd;
+    fill-rule:evenodd;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    version:1.1;
+  }
+
+svg .b{
+    fill:#c8c8c8;
+  }
+
+svg .c{
+    fill:#565b5b;
+    stroke-width:4;
+    stroke:#fff;
+  }
+
+svg .d{
+    fill:#00c3ff;
+    stroke-width:4;
+    stroke:#fff;
+  }
+
+svg .e{
+    fill:#fb4600;
+    stroke-width:4;
+    stroke:#fff;
+  }
+
+svg .f{
+    fill:#fb4600;
+    stroke-width:4.8;
+    stroke:#fff;
+  }
+
+svg .g{
+    fill:#00c3ff;
+    stroke-width:4.8;
+    stroke:#fff;
+  }
+
+svg .h{
+    fill:#fff;
+    stroke-linecap:round;
+    stroke-width:7;
+    stroke:#fff;
+  }
+
+svg .i{
+    fill:#fff;
+    stroke-width:7;
+    stroke:#fff;
+  }
+
+svg .j{
+    fill:none;
+    stroke-width:14;
+    stroke:#fff;
+  }
+
+svg .k{
+    fill:#565b5b;
+    stroke-width:4.8;
+    stroke:#fff;
+  }
+
+svg .l{
+    fill:#4cd100;
+    stroke-width:7;
+    stroke:#fff;
+  }
+
+svg .m{
+    fill:#fb4600;
+  }
+
+svg .n{
+    fill:#ff0086;
+    stroke-width:2;
+    stroke:#fffefe;
+  }
+
+svg .o{
+    fill:#ff0086;
+    stroke-width:2;
+    stroke:#fff;
+  }
+
+svg .p{
+    fill:#00b7ff;
+    stroke-width:4;
+    stroke:#fff;
+  }
+
+svg .q{
+    fill:#fff;
+    stroke-width:7;
+    stroke:#fffefe;
+  }
+
+svg .r{
+    fill:#00c0ff;
+  }
+
+svg .s{
+    fill:#fff;
+    text-anchor:middle;
+  }
+
+svg .t{
+    fill:#565b5b;
+    stroke-width:2;
+    stroke:#fff;
+  }
+
+svg .u{
+    fill:none;
+    stroke-width:7;
+    stroke:#fff;
+  }
+
+svg .v{
+    fill:#fff;
+  }
+
+svg .w{
+    fill:#4cd100;
+  }
+
+svg .x{
+    fill:#ff0086;
+  }
+
+svg .y{
+    fill:#fff600;
+  }
+
+svg .z{
+    fill:#ff0086;
+    stroke-linecap:round;
+    stroke-width:14;
+    stroke:#fff;
+  }
+
+svg .A{
+    fill:none;
+    stroke-width:2;
+    stroke:#fcfcfc;
+  }
+
+svg .B{
+    fill:#fcfcfc;
+  }
+
+svg .C{
+    fill:#00c3ff;
+  }
+
+svg .D{
+    fill:#565b5b;
+    text-anchor:middle;
+  }
+
+svg .E{
+    fill:#565b5b;
+    text-anchor:end;
+  }
+
+svg .F{
+    fill:#3c3c3c;
+    text-anchor:end;
+  }
+
