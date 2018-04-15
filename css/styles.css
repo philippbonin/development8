@@ -5,190 +5,107 @@ body{
 	background-color:#c8c8c8;
 }
 
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+	
 html{‚
 	height: 100%;
 }
 
-svg {
-  position: absolute;
-  max-width: 100%;
-  max-height: 100%;
-  top: 0;
-  left: 0;
-  background-color:#c8c8c8;
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+
+svg .label{
+	fill: #ffffff;
+	font-family:Arial;
+	
 }
 
-svg .a{
-    clip-rule:evenodd;
-    fill-rule:evenodd;
-    stroke-linecap:round;
-    stroke-linejoin:round;
-    version:1.1;
+svg .numbers{
+	fill: #ffffff;
+	font-family: Arial;
+	font-weight: 550;
+}
+
+svg .numbers.big{
+	font-size:200px;
+	font-weight:500;
+}
+
+
+svg .label.circle{
+	font-style:italic;
+	font-weight: bold;
+}
+#dev8 svg {
+	  position: relative;
+  	  bottom:0;
+	  max-height: 100%;
+}
+#infoBox #infoBoxContent{
+	overflow: hidden;
+  	position: relative;
+  	height: 100%;
+  }
+#infoBox #infoBoxContent .impressum{
+	padding: 10px 0 10px 0;
+	position: absolute;
+	bottom:0;
+	width:100%;
+}
+#infoBox #infoBoxContent .impressum .version{
+	color: #565b5b;
+	font-family:Arial;
+	font-size:20px;
+}
+#infoBox #infoBoxContent .impressum .author{
+	font-family:Arial;
+	font-size:10px;
+	color: #565b5b;
+}
+
+@media screen and (min-width: 1024px) {
+  #dev8{
+  	  position: absolute;
+	  left:0;
+	  top:0;
+  	  height: 100%;
+	  width: 50%;
+  }
+  #infoBox{
+    height: 100%;
+    width: 50%;
+    padding:15px;
+    position: absolute;
+    left:50%;
+  }
+  #infoBox #infoBoxContent .impressum{
+  	max-height: 10%;
+  	text-align: left;
   }
 
-svg .b{
-    fill:#c8c8c8;
+}
+@media screen and (max-width: 1024px) {
+  #dev8{
+  	height: 90%;
+	width: 100%;
+	position: absolute;
+  	top: 0%;
   }
-
-svg .c{
-    fill:#565b5b;
-    stroke-width:4;
-    stroke:#fff;
+  #infoBox{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
   }
-
-svg .d{
-    fill:#00c3ff;
-    stroke-width:4;
-    stroke:#fff;
+  #infoBox #infoBoxContent .impressum{
+  	max-height: 100%;
+  	text-align: center;
   }
-
-svg .e{
-    fill:#fb4600;
-    stroke-width:4;
-    stroke:#fff;
-  }
-
-svg .f{
-    fill:#fb4600;
-    stroke-width:4.8;
-    stroke:#fff;
-  }
-
-svg .g{
-    fill:#00c3ff;
-    stroke-width:4.8;
-    stroke:#fff;
-  }
-
-svg .h{
-    fill:#fff;
-    stroke-linecap:round;
-    stroke-width:7;
-    stroke:#fff;
-  }
-
-svg .i{
-    fill:#fff;
-    stroke-width:7;
-    stroke:#fff;
-  }
-
-svg .j{
-    fill:none;
-    stroke-width:14;
-    stroke:#fff;
-  }
-
-svg .k{
-    fill:#565b5b;
-    stroke-width:4.8;
-    stroke:#fff;
-  }
-
-svg .l{
-    fill:#4cd100;
-    stroke-width:7;
-    stroke:#fff;
-  }
-
-svg .m{
-    fill:#fb4600;
-  }
-
-svg .n{
-    fill:#ff0086;
-    stroke-width:2;
-    stroke:#fffefe;
-  }
-
-svg .o{
-    fill:#ff0086;
-    stroke-width:2;
-    stroke:#fff;
-  }
-
-svg .p{
-    fill:#00b7ff;
-    stroke-width:4;
-    stroke:#fff;
-  }
-
-svg .q{
-    fill:#fff;
-    stroke-width:7;
-    stroke:#fffefe;
-  }
-
-svg .r{
-    fill:#00c0ff;
-  }
-
-svg .s{
-    fill:#fff;
-    text-anchor:middle;
-  }
-
-svg .t{
-    fill:#565b5b;
-    stroke-width:2;
-    stroke:#fff;
-  }
-
-svg .u{
-    fill:none;
-    stroke-width:7;
-    stroke:#fff;
-  }
-
-svg .v{
-    fill:#fff;
-  }
-
-svg .w{
-    fill:#4cd100;
-  }
-
-svg .x{
-    fill:#ff0086;
-  }
-
-svg .y{
-    fill:#fff600;
-  }
-
-svg .z{
-    fill:#ff0086;
-    stroke-linecap:round;
-    stroke-width:14;
-    stroke:#fff;
-  }
-
-svg .A{
-    fill:none;
-    stroke-width:2;
-    stroke:#fcfcfc;
-  }
-
-svg .B{
-    fill:#fcfcfc;
-  }
-
-svg .C{
-    fill:#00c3ff;
-  }
-
-svg .D{
-    fill:#565b5b;
-    text-anchor:middle;
-  }
-
-svg .E{
-    fill:#565b5b;
-    text-anchor:end;
-  }
-
-svg .F{
-    fill:#3c3c3c;
-    text-anchor:end;
-  }
-
+}
