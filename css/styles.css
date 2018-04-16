@@ -37,7 +37,6 @@ svg .label{
 }
 
 .day path.big, .day-group path.big{
-	stroke: #ffffff; 
 	stroke-width:20;
 }
 
@@ -53,7 +52,7 @@ svg .label{
 	fill:#FB4600;
 }
 
-.day text{
+.day text, .day-group text{
 	fill: #ffffff;
 	font-family: Arial;
 	text-anchor:middle;
@@ -61,7 +60,7 @@ svg .label{
 	font-size:90px
 }
 
-.day text.big{
+.day text.big, .day-group text.big{
 	font-size:200px;
 	font-weight:500;
 }
