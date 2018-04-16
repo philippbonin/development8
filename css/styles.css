@@ -27,17 +27,44 @@ svg .label{
 	
 }
 
-svg .numbers{
-	fill: #ffffff;
-	font-family: Arial;
-	font-weight: 550;
+.day, .day-group{
+	cursor: pointer;
 }
 
-svg .numbers.big{
+.day path, .day-group path{
+	stroke: #ffffff; 
+	stroke-width:8.74;
+}
+
+.day path.big, .day-group path.big{
+	stroke: #ffffff; 
+	stroke-width:20;
+}
+
+.day.dev path, .day-group.dev path{
+	fill: #00c3ff;
+}
+
+.day.decission path, .day-group.decission path{
+	fill:#4cd100;
+}
+
+.day.beta path, .day-group.beta path{
+	fill:#FB4600;
+}
+
+.day text{
+	fill: #ffffff;
+	font-family: Arial;
+	text-anchor:middle;
+	font-weight: 550;
+	font-size:90px
+}
+
+.day text.big{
 	font-size:200px;
 	font-weight:500;
 }
-
 
 svg .label.circle{
 	font-style:italic;
