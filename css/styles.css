@@ -21,38 +21,128 @@ html{‚
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
 
+p.magenta, span.magenta{
+	color:#ff0086;
+}
+
+.hidden{
+  display: none;
+}
+
+p.center{
+  text-align: center;
+  margin: 0px 0 15px 0;
+  font-weight: bold;
+}
+
+p.center.last{
+  margin: 15px 0 15px 0;
+}
+
+span{
+	font-family: Arial;
+}
+
+span.headline{
+  font-weight: 550;
+  font-size:5vw;
+}
+
+span.big{
+	font-weight: 550;
+	font-size:60px
+}
+
+span.semiBig{
+	font-weight: 550;
+	font-size:60px
+}
+
+span.small{
+	font-weight: 500;
+	font-size:40px
+}
+
+span.inTextBig{
+  font-weight: 500;
+  font-size:25px
+}
+
+.default{
+	background-color: #565b5b;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+}
+
+ul li{
+  padding: 5px 0 5px 0;
+}
+
+ul li:before {
+    content: "• ";
+    color: #ff0086; 
+    font-size: 20px;
+    position: absolute;
+    left:35px;
+}
+
+#dev8 svg {
+	  position: relative;
+  	 bottom:0;
+	  max-height: 100%;
+}
+
 svg .label{
 	fill: #ffffff;
 	font-family:Arial;
 	
 }
 
-.day, .day-group{
+svg .day, .day-group{
 	cursor: pointer;
 }
 
-.day path, .day-group path{
+svg .day path,svg .day-group path{
 	stroke: #ffffff; 
 	stroke-width:8.74;
 }
 
-.day path.big, .day-group path.big{
+svg .day path.off,svg .day-group path.off,
+svg .day.dev path.off, svg .day-group.dev path.off,
+svg .day.decission path.off,svg .day-group.decission path.off,
+svg .day.beta path.off,svg .day-group.beta path.off{
+	fill: #565b5b;
+}
+
+svg .day text.off,svg .day-group text.off,
+svg .day text.big.off,svg .day-group text.big.off{
+	fill: gray ;
+	font-weight: lighter;
+}
+
+svg .day path.big,svg .day-group path.big{
 	stroke-width:20;
 }
 
-.day.dev path, .day-group.dev path{
+.dev, svg .day.dev path, svg .day-group.dev path{
+	background-color: #00c3ff;
 	fill: #00c3ff;
 }
 
-.day.decission path, .day-group.decission path{
+.decission, svg .day.decission path,svg .day-group.decission path{
+	background-color: #4cd100;
 	fill:#4cd100;
 }
 
-.day.beta path, .day-group.beta path{
+.beta, svg .day.beta path,svg .day-group.beta path{
+	background-color:#FB4600; 
 	fill:#FB4600;
 }
 
-.day text, .day-group text{
+svg .day text,svg .day-group text{
 	fill: #ffffff;
 	font-family: Arial;
 	text-anchor:middle;
@@ -60,7 +150,7 @@ svg .label{
 	font-size:90px
 }
 
-.day text.big, .day-group text.big{
+svg .day text.big,svg .day-group text.big{
 	font-size:200px;
 	font-weight:500;
 }
@@ -69,13 +159,8 @@ svg .label.circle{
 	font-style:italic;
 	font-weight: bold;
 }
-#dev8 svg {
-	  position: relative;
-  	  bottom:0;
-	  max-height: 100%;
-}
+
 #infoBox #infoBoxContent{
-	overflow: hidden;
   	position: relative;
   	height: 100%;
   }
@@ -85,23 +170,31 @@ svg .label.circle{
 	bottom:0;
 	width:100%;
 }
-#infoBox #infoBoxContent .impressum .version{
+.impressum-small{
+  padding: 10px 0 10px 0;
+  position: relative;
+  bottom:0;
+  width:100%;
+}
+
+.impressum-small, #infoBox #infoBoxContent .impressum .version{
 	color: #565b5b;
 	font-family:Arial;
 	font-size:20px;
 }
-#infoBox #infoBoxContent .impressum .author{
+.impressum-small, #infoBox #infoBoxContent .impressum .author{
 	font-family:Arial;
 	font-size:10px;
 	color: #565b5b;
 }
 
 @media screen and (min-width: 1024px) {
+
   #dev8{
-  	  position: absolute;
+  	position: absolute;
 	  left:0;
 	  top:0;
-  	  height: 100%;
+  	height: 100%;
 	  width: 50%;
   }
   #infoBox{
@@ -111,27 +204,170 @@ svg .label.circle{
     position: absolute;
     left:50%;
   }
+  #infoBox #infoBoxContent #dev8Content{
+    z-index: 1;
+    position: relative;
+  	min-height: 90%;
+  	text-align:left;
+    overflow: hidden;
+  }
+
+  #dev8Description{
+  	margin:100px 0 0 0;
+  	border: solid white 4px;
+  	border-radius: 3px;
+    padding: 25px 15px 25px 15px;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+  }
+
+  #infoBox #infoBoxContent span.nav-question, span.nav-rules, span.nav-key, span.nav-goal{
+    z-index: 2;
+    position: absolute;
+    top: 80px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+    border: solid 2px white;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  #infoBox #infoBoxContent span.nav-question,span.nav-rules, span.nav-key, span.nav-goal{
+    opacity: 0.2;
+    cursor: pointer;
+  }
+
+  #infoBox #infoBoxContent span.nav-question.selected,span.nav-rules.selected, span.nav-key.selected, span.nav-goal.selected{
+    opacity: 1;
+  }
+  
+
+  #infoBox #infoBoxContent span.nav-question{
+    background-color: #ff0086;
+    left: 82px;
+  }
+
+
+  #infoBox #infoBoxContent span.nav-goal{
+    background-color: #ff0086;
+    left: 0px;
+  }
+
+  #infoBox #infoBoxContent span.nav-rules{
+    background-color: #ff0086;
+    left: 405px;
+  }
+
+  #infoBox #infoBoxContent span.nav-key{
+    background-color: #ff0086;
+    left: 235px;
+  }
+
   #infoBox #infoBoxContent .impressum{
-  	max-height: 10%;
+  	
+    max-height: 10%;
   	text-align: left;
   }
 
+  .impressum-small{
+    display: none;
+  }
+
 }
+
 @media screen and (max-width: 1024px) {
   #dev8{
-  	height: 90%;
-	width: 100%;
-	position: absolute;
-  	top: 0%;
+  	 height: 80%;
+	   width: 100%;
+	   position: absolute;
+  	 top: 0%;
   }
   #infoBox{
-    height: 10%;
+    max-height: 20%;
     width: 100%;
     position: absolute;
     bottom: 0;
   }
   #infoBox #infoBoxContent .impressum{
-  	max-height: 100%;
-  	text-align: center;
+  	display: none;
+  }
+  #dev8Description{
+    position: relative;
+  	margin:35px 10px 10px 10px;
+  	border: solid white 2px;
+  	border-radius: 3px;
+    padding: 25px 15px 15px 15px;
+    font-weight: 100;
+    font-size: 14px;
+    font-family: Arial;
+    color: white;
+  }
+  #dev8Description span.question{
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #ff0086;
+    padding: 5px;
+    border: solid 2px white;
+    border-radius: 2px;
+  }
+
+  #infoBox #infoBoxContent span.nav-question, span.nav-rules, span.nav-key, span.nav-goal{
+    z-index: 2;
+    position: absolute;
+    top: -35px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 14px;
+    border: solid 2px white;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  #infoBox #infoBoxContent span.nav-question,span.nav-rules, span.nav-key, span.nav-goal{
+    opacity: 0.2;
+    cursor: pointer;
+  }
+
+  #infoBox #infoBoxContent span.nav-question.selected,span.nav-rules.selected, span.nav-key.selected, span.nav-goal.selected{
+    opacity: 1;
+  }
+  
+
+  #infoBox #infoBoxContent span.nav-question{
+    background-color: #ff0086;
+    left: 66px;
+  }
+
+
+  #infoBox #infoBoxContent span.nav-goal{
+    background-color: #ff0086;
+    left: 10px;
+  }
+
+  #infoBox #infoBoxContent span.nav-rules{
+    background-color: #ff0086;
+    left: 330px;
+  }
+
+  #infoBox #infoBoxContent span.nav-key{
+    background-color: #ff0086;
+    left: 191px;
+  }
+
+
+  .headline{
+  	display: none;
+  }
+  .impressum-small{
+    text-align: center;
+    margin: 0 0 5px 0;
   }
 }

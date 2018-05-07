@@ -8,23 +8,77 @@
     <meta name="description" content="Agile development in an enterprise environment">
     <meta name="author" content="Philipp Bonin">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="../js/jquery.js"></script> 
     <script>
     $( document ).ready(function() {
+       
+
+        $('#dev8Description').removeClass('default beta decission dev').addClass('default').load('description/default.html')
+        
         $('.day-group,.day').click(function() { 
-          var id = $(this).attr('id');
-          var file = 'description/' + id + '.html';
-          //$('#dev8Description').load(file);
-          console.log(file);
+          if ($(this).find('.on').length > 0){
+            resetDev8();
+            setNav($('#nav .nav-goal'));
+            $('#dev8Description').removeClass('default beta decission dev').addClass('default').load('description/default.html');
+          }else{
+            setNav($('.nav-question'));
+            $('svg .day, svg .day-group').children().addClass('off');
+            $(this).children().removeClass('off').addClass('on');
+            var id = $(this).attr('id');
+            var file = 'description/' + id + '.html';
+            $('#dev8Description').removeClass('default beta decission dev').addClass($(this).data("type")).load(file);
+          }
           return false; 
         });
+
+        function setNav(item){
+          item.siblings().removeClass('selected');
+          item.addClass('selected');
+        }
+
+        function resetDev8(){
+          $('svg .day, svg .day-group').children().removeClass('off on');
+        }
+
+        $('.nav').click(function() {
+          var section = $(this).data('nav');
+          var FirstSectionSelector = "day-01-07";
+          var FirstSection = $('#'+FirstSectionSelector);
+          var FirstSectionFile = 'description/' + FirstSectionSelector + '.html';
+          
+          setNav($(this));
+          resetDev8()
+          switch(section) {
+              case 'question':
+                  $('svg .day, svg .day-group').children().addClass('off');
+                  FirstSection.children().removeClass('off').addClass('on');
+                  $('#dev8Description').removeClass('default beta decission dev').addClass('dev').load(FirstSectionFile);
+                  break;
+              case 'goal':
+                  $('#dev8Description').removeClass('default beta decission dev').addClass('default').load('description/default.html');
+                  $('#dev8Description').siblings().addClass('hidden');
+                  $('#dev8Description .goal').removeClass('hidden');
+                  break;
+               case 'key':
+                  $('#dev8Description').removeClass('default beta decission dev').addClass('default').load('description/key.html');
+                  break;
+              case 'rules':
+                $('#dev8Description').removeClass('default beta decission dev').addClass('default').load('description/rules.html');
+                break;
+              default:
+                  
+          }
+          return false; 
+        });
+        
       });
     </script>
     <!-- The styles -->
    	<link href="css/styles.css" rel="stylesheet"> 
 	
   </head>
-
+  <body>
   <div id="dev8">
 <!-- The SVG used vectornator ios app and https://jakearchibald.github.io/svgomg/ to simplfy and prettify code-->
     <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" clip-rule="evenodd" viewBox="0 0 2300 3420">
@@ -39,8 +93,8 @@
 
       <path fill="#ff0066" stroke="#ffffff" stroke-width="4" d="M794.359 1294.18l-102.06 101.77s173.411 187.91 456.161 187.29c0 0 219.63-17.76 428.11 149.64l-47.95 51.23 147.93-58.88 26.79-166.56-38.24 60.15c-245.24-202.9-516.64-179.58-516.64-179.58-225.019-3.49-354.101-145.06-354.101-145.06z"/>
 
-<!-- day 1-6 -->
-    <g id="day-01-06" class="dev day-group">   
+<!-- day 1-7 -->
+    <g id="day-01-07" class="dev day-group" data-type="dev">   
         <path id="day-01" d="M1683.52 1733.33l-101.72 101.78c110.37 110.7 178.64 263.4 178.66 432.06h143.88c-.02-208.41-84.39-397.1-220.82-533.84z"/>
         <text x="47.8315" y="81" transform="matrix(1.00615 -.00481 .00475 .99344 1734.01 1948.89)">1</text>
       
@@ -58,16 +112,13 @@
       
         <path id="day-06" d="M613.398 1733.21c-136.502 136.74-220.921 325.49-220.938 533.96h143.875c.017-168.78 68.368-321.6 178.875-432.31l-101.812-101.65z"/>
         <text x="47.8315" y="81" transform="matrix(1.00572 .0296 -.02923 .99302 468.451 1948.42)">6</text>  
-    </g>
-
-<!-- day 7 -->
-    <g id="day-07" class="dev day">
-      <path d="M1148.34 1511.3c-208.928.02-398.031 84.8-534.848 221.81l101.812 101.66c110.77-110.93 263.884-179.58 433.036-179.6V1511.3z"/>
-      <text x="47.8315" y="81" transform="matrix(1.00616 0 0 .99345 842.523 1574.83)">7</text>
+   
+        <path d="M1148.34 1511.3c-208.928.02-398.031 84.8-534.848 221.81l101.812 101.66c110.77-110.93 263.884-179.58 433.036-179.6V1511.3z"/>
+        <text x="47.8315" y="81" transform="matrix(1.00616 0 0 .99345 842.523 1574.83)">7</text>
     </g>
 
 <!-- day 9-14 -->
-    <g id="day-09-14" class="dev day-group">
+    <g id="day-09-14" class="dev day-group" data-type="dev">
         <path id="day-09" d="M1555.93 1342.24c-104.25 104.38-248.35 168.98-407.53 169v143.87c198.96-.02 379.07-80.71 509.37-211.19l-101.84-101.68z"/>
         <text x="101.501" y="81" transform="matrix(1.00615 .00402 -.00397 .99344 1367.1 1447.15)">9</text>
       
@@ -88,13 +139,13 @@
     </g>
 
 <!-- day 15 -->
-    <g id="day-15" class="decission day">
+    <g id="day-15" class="decission day" data-type="decission">
         <path d="M428.398 935.237c.017 199.113 80.851 379.333 211.5 509.653l203.656-203.53c-104.607-104.28-127.638-228.44-127.281-306.248l-287.875.125z"/>
         <text class="big" x="123.22" y="181" transform="matrix(1.07773 0 0 1.60928 469.445 982.947)">15</text>
     </g>
 
 <!-- day 16-17 -->
-    <g id="day-16-17" class="beta day-group">
+    <g id="day-16-17" class="beta day-group" data-type="beta">
         <path id="day-16" d="M1785.37 1631.46l-101.78 101.81c136.44 136.75 220.85 325.46 220.87 533.9h143.88c-.02-248.18-100.48-472.92-262.97-635.71z"/>
         <text x="101.501" y="81" transform="matrix(1.00616 .00228 -.00225 .99344 1808.17 1889.59)">16</text>
 
@@ -103,7 +154,7 @@
     </g>
 
 <!-- day 18-22 --> 
-    <g id="day-18-22" class="beta day-group">
+    <g id="day-18-22" class="beta day-group" data-type="beta">
         <path id="day-18" d="M1683.4 2801.42c-136.84 137.05-325.98 221.86-534.94 221.88v143.87c248.74-.01 473.93-100.92 636.81-264.06l-101.87-101.69z"/>
         <text x="101.501" y="81" transform="matrix(1.00615 .00402 -.00397 .99344 1359.65 2979.26)">18</text>
         
@@ -121,7 +172,7 @@
     </g>
 
 <!-- day 24-25 -->
-    <g id="day-24-25" class="beta day-group">      
+    <g id="day-24-25" class="beta day-group" data-type="beta">      
         <path id="day-24" d="M1454.02 1240.49c-78.18 78.28-186.24 126.73-305.62 126.75v143.87c159.15-.02 303.2-64.6 407.44-168.97l-101.82-101.65z"/>
         <text x="101.501" y="81" transform="matrix(1.00615 .00402 -.00397 .99344 1264.9 1341.72)">24</text>
     
@@ -130,7 +181,7 @@
     </g>
 
 <!-- day 26-27 -->
-    <g id="day-26-27" class="beta day-group">
+    <g id="day-26-27" class="beta day-group" data-type="beta">
       <path id="day-26" d="M1556.27 528.643l-101.75 101.75c77.76 78.116 125.86 185.794 125.88 304.719h143.87c-.01-158.662-64.2-302.313-168-406.469z"/>
       <text x="101.501" y="81" transform="matrix(1.00615 .00402 -.00397 .99344 1516.51 693.139)">26</text>
 
@@ -139,13 +190,13 @@
     </g>
 
 <!-- day 28 -->
-    <g id="day-28" class="beta day">
+    <g id="day-28" class="beta day" data-type="beta">
       <path d="M1148.27 359.237c-159.184.017-303.259 64.625-407.497 169.031l101.812 101.656c78.192-78.319 186.275-126.795 305.685-126.812V359.237z"/>
       <text x="101.501" y="81" transform="matrix(1.00615 .00402 -.00397 .99344 852.88 426.028)">28</text>
     </g>
 
 <!-- day 8-23 -->
-    <g id="day-08-23" class="decission day">
+    <g id="day-08-23" class="decission day" data-type="decission">
        <path class="big" d="M1044.17 1799.94s12.19 35.86 107.81 35.86c92.47 0 107.8-35.86 107.8-35.86v-466.18s-16.01-37.78-108.1-37.78c-96 0-107.51 37.78-107.51 37.78v466.18z"/>
        <text class="big" x="123.22" y="181" transform="matrix(1.05984 0 0 1.79962 1017.68 1470.58)">8</text>
        <text x="101.601" y="81" transform="matrix(1.00615 .00402 -.00397 .99344 1047.39 1375.9)">23</text>
@@ -211,13 +262,27 @@
 
 <div id="infoBox">
   <div id="infoBoxContent">
-      <div id="dev8Description"></div>
+      <span class="headline magenta">The Development8</span>
+      <div id="nav">
+        <span class="nav nav-rules" data-nav="rules">RULES</span>
+        <span class="nav nav-question "data-nav="question">HOW IT WORKS</span>
+        <span class="nav nav-key" data-nav="key">KEY TAKE AWAYS</span>
+        <span class="nav nav-goal selected" data-nav="goal">GOAL</span>
+      </div>
+      <div id="dev8Content" >
+          <div id="dev8Description" class="default"></div>
+      </div>
       <div class="impressum">
-        <div class="version">Development8 - Version: 1.1 (20180413)</div>
+        <div class="version"><span class="magenta">Development8</span> - Version: 1.1 (20180413)</div>
         <div class="author">Author: Philipp Bonin (mail@development8.de)</div>
       </div>
   </div>
 <div>
+
+<div class="impressum-small">
+  <div class="version"><span class="magenta">Development8</span> - Version: 1.1 (20180413)</div>
+  <div class="author">Author: Philipp Bonin (mail@development8.de)</div>
+</div>
 
   </body>
 </html>
