@@ -1,0 +1,70 @@
+#dev8 svg {
+  position: relative;
+  bottom:0;
+  max-height: 100%;
+}
+
+svg .label{
+	fill: #ffffff;
+	font-family:Arial;
+	
+}
+
+svg .day, .day-group{
+	cursor: pointer;
+}
+
+svg .day path,svg .day-group path{
+	stroke: #ffffff; 
+	stroke-width:8.74;
+}
+
+svg .day path.off,svg .day-group path.off,
+svg .day.dev path.off, svg .day-group.dev path.off,
+svg .day.decission path.off,svg .day-group.decission path.off,
+svg .day.beta path.off,svg .day-group.beta path.off{
+	fill: #565b5b;
+}
+
+svg .day text.off,svg .day-group text.off,
+svg .day text.big.off,svg .day-group text.big.off{
+	fill: gray ;
+	font-weight: lighter;
+}
+
+svg .day path.big,svg .day-group path.big{
+	stroke-width:20;
+}
+
+.dev, svg .day.dev path, svg .day-group.dev path{
+	background-color: #00c3ff;
+	fill: #00c3ff;
+}
+
+.decission, svg .day.decission path,svg .day-group.decission path{
+	background-color: #4cd100;
+	fill:#4cd100;
+}
+
+.beta, svg .day.beta path,svg .day-group.beta path{
+	background-color:#FB4600; 
+	fill:#FB4600;
+}
+
+svg .day text,svg .day-group text{
+	fill: #ffffff;
+	font-family: Arial;
+	text-anchor:middle;
+	font-weight: 550;
+	font-size:90px
+}
+
+svg .day text.big,svg .day-group text.big{
+	font-size:200px;
+	font-weight:500;
+}
+
+svg .label.circle{
+	font-style:italic;
+	font-weight: bold;
+}

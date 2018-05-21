@@ -9,76 +9,18 @@
     <meta name="author" content="Philipp Bonin">
 
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-    <script src="../js/jquery.js"></script> 
-    <script>
-    $( document ).ready(function() {
-       
+    <script src="../js/jquery.js"></script>
+    <script src="../js/development8.js"></script> 
 
-        $('#dev8Description').removeClass('default beta decission dev').addClass('default').load('description/default.html')
-        
-        $('.day-group,.day').click(function() { 
-          if ($(this).find('.on').length > 0){
-            resetDev8();
-            setNav($('#nav .nav-goal'));
-            $('#dev8Description').removeClass('default beta decission dev').addClass('default').load('description/default.html');
-          }else{
-            setNav($('.nav-question'));
-            $('svg .day, svg .day-group').children().addClass('off');
-            $(this).children().removeClass('off').addClass('on');
-            var id = $(this).attr('id');
-            var file = 'description/' + id + '.html';
-            $('#dev8Description').removeClass('default beta decission dev').addClass($(this).data("type")).load(file);
-          }
-          return false; 
-        });
-
-        function setNav(item){
-          item.siblings().removeClass('selected');
-          item.addClass('selected');
-        }
-
-        function resetDev8(){
-          $('svg .day, svg .day-group').children().removeClass('off on');
-        }
-
-        $('.nav').click(function() {
-          var section = $(this).data('nav');
-          var FirstSectionSelector = "day-01-07";
-          var FirstSection = $('#'+FirstSectionSelector);
-          var FirstSectionFile = 'description/' + FirstSectionSelector + '.html';
-          
-          setNav($(this));
-          resetDev8()
-          switch(section) {
-              case 'question':
-                  $('svg .day, svg .day-group').children().addClass('off');
-                  FirstSection.children().removeClass('off').addClass('on');
-                  $('#dev8Description').removeClass('default beta decission dev').addClass('dev').load(FirstSectionFile);
-                  break;
-              case 'goal':
-                  $('#dev8Description').removeClass('default beta decission dev').addClass('default').load('description/default.html');
-                  $('#dev8Description').siblings().addClass('hidden');
-                  $('#dev8Description .goal').removeClass('hidden');
-                  break;
-               case 'key':
-                  $('#dev8Description').removeClass('default beta decission dev').addClass('default').load('description/key.html');
-                  break;
-              case 'rules':
-                $('#dev8Description').removeClass('default beta decission dev').addClass('default').load('description/rules.html');
-                break;
-              default:
-                  
-          }
-          return false; 
-        });
-        
-      });
-    </script>
     <!-- The styles -->
    	<link href="css/styles.css" rel="stylesheet"> 
-	
+    <link href="css/1024px.css" rel="stylesheet"> 
+    <link href="css/min1024px.css" rel="stylesheet">
+    <link href="css/dev8svg.css" rel="stylesheet">
+    
   </head>
   <body>
+    
   <div id="dev8">
 <!-- The SVG used vectornator ios app and https://jakearchibald.github.io/svgomg/ to simplfy and prettify code-->
     <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" clip-rule="evenodd" viewBox="0 0 2300 3420">
@@ -262,12 +204,12 @@
 
 <div id="infoBox">
   <div id="infoBoxContent">
-      <span class="headline magenta">The Development8</span>
+      <div id="headline" class="magenta">The Development8</div>
       <div id="nav">
-        <span class="nav nav-rules" data-nav="rules">RULES</span>
-        <span class="nav nav-question "data-nav="question">HOW IT WORKS</span>
-        <span class="nav nav-key" data-nav="key">KEY TAKE AWAYS</span>
         <span class="nav nav-goal selected" data-nav="goal">GOAL</span>
+        <span class="nav nav-question "data-nav="question">HOW IT WORKS</span>
+        <span class="nav nav-rules" data-nav="rules">RULES</span>
+        <span class="nav nav-key" data-nav="key">KEY TAKE AWAYS</span>
       </div>
       <div id="dev8Content" >
           <div id="dev8Description" class="default"></div>
@@ -279,10 +221,5 @@
   </div>
 <div>
 
-<div class="impressum-small">
-  <div class="version"><span class="magenta">Development8</span> - Version: 1.1 (20180413)</div>
-  <div class="author">Author: Philipp Bonin (mail@development8.de)</div>
-</div>
-
-  </body>
+</body>
 </html>

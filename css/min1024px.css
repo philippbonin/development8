@@ -1,0 +1,119 @@
+@media screen and (min-width: 1024px) {
+
+  #dev8{
+  	position: absolute;
+	  left:0;
+	  top:0;
+  	height: 100%;
+	  width: 50%;
+  }
+
+  #infoBox{
+    height: 100%;
+    width: 50%;
+    padding:15px;
+    position: absolute;
+    left:50%;
+  }
+
+  #infoBox #infoBoxContent{
+    position: relative;
+    height: 100%;
+  }
+
+  #infoBox #infoBoxContent #headline{
+    position: relative;
+    top:0;
+    font-weight: 550;
+    font-size:5vw;
+  }
+
+  #infoBox #infoBoxContent #nav{
+    position: relative;
+    height:81px;
+    padding: 20px 0 20px 0;  
+  }
+
+  #infoBox #infoBoxContent span.nav-question,
+  #infoBox #infoBoxContent span.nav-rules, 
+  #infoBox #infoBoxContent span.nav-key, 
+  #infoBox #infoBoxContent span.nav-goal{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 5px 0 0;
+    font-size: 15px;
+    border: solid 2px white;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  #infoBox #infoBoxContent span.nav-question,
+  #infoBox #infoBoxContent span.nav-rules,
+  #infoBox #infoBoxContent span.nav-key, 
+  #infoBox #infoBoxContent span.nav-goal{
+    opacity: 0.2;
+    cursor: pointer;
+  }
+
+  #infoBox #infoBoxContent span.nav-question.selected, 
+  #infoBox #infoBoxContent span.nav-rules.selected, 
+  #infoBox #infoBoxContent span.nav-key.selected,
+  #infoBox #infoBoxContent span.nav-goal.selected{
+    opacity: 1;
+  }
+  
+  #infoBox #infoBoxContent span.nav-goal{
+    background-color: #ff0086;
+    float: left
+  }
+
+  #infoBox #infoBoxContent span.nav-question{
+    background-color: #ff0086;
+    float: left
+  }
+
+  #infoBox #infoBoxContent span.nav-key{
+    background-color: #ff0086;
+    float: left
+  }
+
+  #infoBox #infoBoxContent span.nav-rules{
+    background-color: #ff0086;
+    float: left
+  }
+
+    #infoBox #infoBoxContent #dev8Content{
+    position: relative;
+  }
+
+  #infoBox #infoBoxContent #dev8Content #dev8Description{
+    position: relative;
+    border: solid white 4px;
+    border-radius: 3px;
+    padding: 25px 15px 25px 15px;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+  }
+
+  #infoBox #infoBoxContent .impressum{
+    position: absolute;
+    bottom:0;
+    width:100%;
+  }
+
+  #infoBox #infoBoxContent .impressum .version{
+    color: #565b5b;
+    font-family: Arial;
+    font-size: 20px;  
+  }
+  
+  #infoBox #infoBoxContent .impressum .author{
+    font-family: Arial;
+    font-size: 10px;
+    color: #565b5b;
+  }
+}
+
