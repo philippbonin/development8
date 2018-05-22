@@ -2,12 +2,19 @@
 
   #dev8{
     position: relative;
-	  width: 400px;
-    min-width: 400px;
+    width:65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #dev8 svg {
+    position: relative;
+    top:0;
   }
 
   #infoBox{
     position: relative;
+    height: 20%;
     padding:15px;
   }
 

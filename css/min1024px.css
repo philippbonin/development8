@@ -8,6 +8,12 @@
 	  width: 50%;
   }
 
+  #dev8 svg {
+    position: relative;
+    bottom:0;
+    max-height: 100%;
+  }
+
   #infoBox{
     height: 100%;
     width: 50%;
