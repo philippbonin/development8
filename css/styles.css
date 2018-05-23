@@ -32,6 +32,10 @@ span.magenta{
   display: none;
 }
 
+#dev8DescriptionNav{
+  display: none;
+}
+
 p.center{
   text-align: center;
   margin: 0px 0 15px 0;

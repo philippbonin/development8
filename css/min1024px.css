@@ -89,8 +89,46 @@
     float: left
   }
 
-    #infoBox #infoBoxContent #dev8Content{
+  #infoBox #infoBoxContent #dev8Content{
     position: relative;
+  }
+
+  #infoBox #infoBoxContent #dev8Content #dev8DescriptionNav{
+    position: relative;
+    height: 50px;
+  }
+
+
+  #infoBox #infoBoxContent #next, #infoBox #infoBoxContent #prev{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 5px 0 0;
+    font-size: 15px;
+    border: solid 2px white;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: #565b5b;
+  }
+
+  #infoBox #infoBoxContent #next:hover, #infoBox #infoBoxContent #prev:hover{
+    opacity: 0.5;
+  }
+
+
+  #infoBox #infoBoxContent #prev{
+    float: left;
+    width: 100px;
+    text-align: left;
+    margin: 15px 0 0 0;
+  }
+
+  #infoBox #infoBoxContent #next{
+    float: right;
+    width: 100px;
+    text-align: right;
+    margin: 15px 0 0 0;
   }
 
   #infoBox #infoBoxContent #dev8Content #dev8Description{
@@ -104,10 +142,10 @@
     color: white;
   }
 
-  #infoBox #infoBoxContent .impressum{
-    position: absolute;
-    bottom:0;
-    width:100%;
+  #infoBox #infoBoxContent #dev8Content #dev8Description.dev,
+  #infoBox #infoBoxContent #dev8Content #dev8Description.decission,
+  #infoBox #infoBoxContent #dev8Content #dev8Description.beta {
+      height: 400px;
   }
 
   #infoBox #infoBoxContent .impressum .version{
@@ -123,3 +161,17 @@
   }
 }
 
+@media screen and (max-height:675px) and (min-width: 1024px)   {
+ #infoBox #infoBoxContent .impressum{
+    position: relative;
+    margin: 20px 0 0 0;
+    width:100%;
+  }
+}
+
+@media screen and (min-height: 675px) and (min-width: 1024px) {
+ #infoBox #infoBoxContent .impressum{
+    position: absolute;
+    bottom: 0;
+  }
+}
