@@ -117,14 +117,14 @@
   #infoBox #infoBoxContent #prev{
     float: left;
     width: 100px;
-    text-align: left;
+    text-align: center;
     margin: 15px 0 0 0;
   }
 
   #infoBox #infoBoxContent #next{
     float: right;
     width: 100px;
-    text-align: right;
+    text-align: center;
     margin: 15px 0 0 0;
   }
 
