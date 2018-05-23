@@ -54,8 +54,8 @@ $( document ).ready(function() {
       setLodingIndication ();
       $.get( file )
         .done(function( data ) {
-          $('#dev8Description').removeClass('default beta decission dev').addClass(style).html(data);
           removeLoadingIndication();
+          $('#dev8Description').removeClass('default beta decission dev').addClass(style).html(data);
       });
   }
 
