@@ -161,7 +161,7 @@
   }
 }
 
-@media screen and (max-height:675px) and (min-width: 1024px)   {
+@media screen and (max-height:730px) and (min-width: 1024px)   {
  #infoBox #infoBoxContent .impressum{
     position: relative;
     margin: 20px 0 0 0;
@@ -169,7 +169,7 @@
   }
 }
 
-@media screen and (min-height: 675px) and (min-width: 1024px) {
+@media screen and (min-height: 730px) and (min-width: 1024px) {
  #infoBox #infoBoxContent .impressum{
     position: absolute;
     bottom: 0;
