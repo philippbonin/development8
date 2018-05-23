@@ -23,11 +23,10 @@ $( document ).ready(function() {
   }
 
   function resetDev8(){
-    $('svg .day, svg .day-group').children().removeClass('off on');
+    dev8Parts.removeClass('off on');
   }
 
   function setOnOff(item){
-
     if (item instanceof jQuery){
       var selector = item;
       var id = selector.attr('id');
@@ -39,23 +38,60 @@ $( document ).ready(function() {
       var selector = $('#dev8').find(jSelector); 
       var id = selector.attr('id');
     }
+      dev8Parts.addClass('off');
+      selector.children().removeClass('off').addClass('on');
+
+      $('#dev8DescriptionNav').fadeIn();
+      setNav($('.nav-question'));
       
       var type = selector.data("type");
-
-      setNav($('.nav-question'));
-      dev8Parts.addClass('off');
-
-      selector.children().removeClass('off').addClass('on');
-      
       var file = 'description/' + id + '.html';
-      $('#dev8Description').removeClass('default beta decission dev').addClass(type).load(file);
 
+      loadFile(file, type);
   }
 
-  function setFile(file, style){
-      $('#dev8DescriptionNav').hide();
-      $('#dev8Description').removeClass('default beta decission dev').addClass(style).load(file)
+  function loadFile(file, style){
+      setLodingIndication ();
+      $.get( file )
+        .done(function( data ) {
+          $('#dev8Description').removeClass('default beta decission dev').addClass(style).html(data);
+          removeLoadingIndication();
+      });
   }
+
+  function setLodingIndication () {
+    $('#loader').show();
+  }
+
+  function removeLoadingIndication () {
+    $('#loader').hide(); 
+  }
+
+  var i = 0;
+  function blingbling(){
+    setTimeout(function () { 
+        var element = 'g#'+dev8[i]
+        var jSelector = (element  == 'g#day-23' || element  == 'g#day-08' ) ? 'g#day-08-23' : element ;
+        var selector = $('#dev8').find(jSelector); 
+        selector.children().removeClass('off').addClass('on');
+      i++;                     
+      if (i < dev8.length) {            
+         blingbling();             
+      }                   
+    }, 300)
+  }
+
+  function initailize (){
+    $('#dev8DescriptionNav').hide();
+    loadFile('description/default.html','default');
+
+    if (i < dev8.length){
+      dev8Parts.addClass('off');
+      blingbling();
+    }
+  }
+
+  initailize();
 
   $('.day-group,.day').on("click", function() { 
       setOnOff($(this));
@@ -76,19 +112,22 @@ $( document ).ready(function() {
     resetDev8();
     switch($(this).data('nav')) {
         case 'question':
+            currentIndex = 0;
             dev8Parts.addClass('off');
             FirstSection.children().removeClass('off').addClass('on');
-            setFile(FirstSectionFile,'dev');
+            loadFile(FirstSectionFile,'dev');
             $('#dev8DescriptionNav').fadeIn();
             break;
         case 'goal':
-            setFile('description/default.html','default')
+            initailize();
             break;
          case 'key':
-            setFile('description/key.html','default');
+            $('#dev8DescriptionNav').hide();
+            loadFile('description/key.html','default');
             break;
         case 'rules':
-            setFile('description/rules.html','default');
+            $('#dev8DescriptionNav').hide();
+            loadFile('description/rules.html','default');
             break;
         default:
     }

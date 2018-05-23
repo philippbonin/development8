@@ -86,3 +86,15 @@ ul li:before {
     position: absolute;
     left:35px;
 }
+
+#infoBox #infoBoxContent #dev8Content #loader{
+  z-index: 9999;
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+#infoBox #infoBoxContent #dev8Content #loader svg path{
+  fill: white;
+}

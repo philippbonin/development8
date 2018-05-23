@@ -137,6 +137,7 @@
     font-size: 15px;
     font-family: Arial;
     color: white;
+    min-height: 75px;
   }
 
   #infoBox #infoBoxContent #dev8Content #dev8Description.dev,
