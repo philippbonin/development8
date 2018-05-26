@@ -13,6 +13,13 @@ svg .day path,svg .day-group path{
 	stroke-width:8.74;
 }
 
+svg .day path, svg .day-group path{
+ 	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
 svg .day path.off,svg .day-group path.off,
 svg .day.dev path.off, svg .day-group.dev path.off,
 svg .day.decission path.off,svg .day-group.decission path.off,

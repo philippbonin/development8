@@ -49,6 +49,10 @@
     border: solid 2px white;
     border-radius: 2px;
     cursor: pointer;
+
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
   }
 
   #infoBox #infoBoxContent span.nav-question,
@@ -138,6 +142,10 @@
     font-family: Arial;
     color: white;
     min-height: 75px;
+
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
   }
 
   #infoBox #infoBoxContent #dev8Content #dev8Description.dev,
