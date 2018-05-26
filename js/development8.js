@@ -13,7 +13,7 @@ $( document ).ready(function() {
       "day-23",
       "day-24-25",
       "day-26-27",
-      "day-28",
+      "day-28"
     ); 
   var currentIndex = 0;
 
@@ -51,11 +51,12 @@ $( document ).ready(function() {
   }
 
   function loadFile(file, style){
-      setLodingIndication ();
+      $('#dev8Description').empty();
+      setLodingIndication();
       $.get( file )
         .done(function( data ) {
-          removeLoadingIndication();
-          $('#dev8Description').removeClass('default beta decission dev').addClass(style).html(data);
+            $('#dev8Description').removeClass('default beta decission dev').addClass(style).html(data);
+            removeLoadingIndication();
       });
   }
 

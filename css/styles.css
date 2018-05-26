@@ -32,6 +32,12 @@ span.magenta{
   display: none;
 }
 
+#overlay{
+  position: absolute;
+  height: 100%;
+  background-color: red;
+}
+
 #dev8DescriptionNav{
   display: none;
 }
