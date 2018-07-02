@@ -95,7 +95,6 @@ var Development8SVG = (function() {
       if (i < dev8.length) {     
          blingbling();             
       }else{
-        console.log('init ready');
         ready.resolve();
       }              
     }, 300)
@@ -117,8 +116,9 @@ var Development8SVG = (function() {
             dev8Parts.addClass('off');
             blingbling();
           }
-        };
-
+        }else{
+          ready.resolve();
+        }  
      });
     }
     return ready.promise();

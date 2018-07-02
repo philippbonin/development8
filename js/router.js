@@ -34,7 +34,8 @@ var Development8Router = (function() {
         {
           after: function (params) {
             var config = {
-               clickHandler: false
+               clickHandler: false,
+               blingbling: true
             }
             window.APP.Development8SVG.init(config).done(function(){
                 window.APP.Development8googleCal.getCurrentDev8Day().done(function(currentDev8Day){
