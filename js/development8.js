@@ -3,10 +3,10 @@ var Development8SVG = (function() {
 
 //DEVELOPMENT8 SCRIPT
   
-  
-  var FirstSection = $('#day-01-07');
+  var ready = $.Deferred();
+  var FirstSection;
   var FirstSectionFile = 'description/day-01-07.html';
-  var dev8Parts = $('svg .day, svg .day-group').children();
+  var dev8Parts;
   var dev8 = new Array(
       "day-01-07",
       "day-08",
@@ -20,6 +20,11 @@ var Development8SVG = (function() {
       "day-28"
     ); 
 
+  var config = {
+        clickHandler: true,
+        blingbling: true
+  }
+
   var currentIndex = 0;
 
   var setNav = function(item){
@@ -29,6 +34,10 @@ var Development8SVG = (function() {
 
   var resetDev8 = function(){
     dev8Parts.removeClass('off on');
+  }
+
+  var APIOnOff = function(item){
+    setOnOff(dev8.indexOf(item));
   }
 
   var setOnOff = function(item){
@@ -82,31 +91,42 @@ var Development8SVG = (function() {
         var jSelector = (element  == 'g#day-23' || element  == 'g#day-08' ) ? 'g#day-08-23' : element ;
         var selector = $('#dev8').find(jSelector); 
         selector.children().removeClass('off').addClass('on');
-  console.log(selector);
       i++;                     
       if (i < dev8.length) {     
-  console.log(i);       
          blingbling();             
-      }                 
+      }else{
+        console.log('init ready');
+        ready.resolve();
+      }              
     }, 300)
   }
 
-  var init = function initailize (){
-
-console.log('initDev8 SVG');
-
+  var init = function(cfg){
+    var cfg = $.extend({},config, cfg); 
     $('#dev8DescriptionNav').hide();
     loadFile('description/default.html','default');
 
-    if (i < dev8.length){
-      dev8Parts.addClass('off');
-      blingbling();
-    }
+    if ($('#dev8').length == 0) {
+      $('#dev8').ready(function() {
+        FirstSection = $('#day-01-07');
+        dev8Parts = $('svg .day, svg .day-group').children();
 
-console.log('init click handler');
-  
+        if (cfg.clickHandler) {loadClickHandler()};
+        if (cfg.blingbling) {
+          if (i < dev8.length){
+            dev8Parts.addClass('off');
+            blingbling();
+          }
+        };
+
+     });
+    }
+    return ready.promise();
+  }
+
+
+  var loadClickHandler = function(){ 
     $('.day-group,.day').on("click", function() { 
-console.log('click');
         setOnOff($(this));
     });
 
@@ -120,6 +140,7 @@ console.log('click');
         setOnOff(index);
     });
 
+//refoctor this - add to router
     $('.nav').on("click", function() {    
       setNav($(this));
       resetDev8();
@@ -132,7 +153,7 @@ console.log('click');
               $('#dev8DescriptionNav').fadeIn();
               break;
           case 'goal':
-              initailize();
+              init();
               break;
            case 'key':
               $('#dev8DescriptionNav').hide();
@@ -150,10 +171,12 @@ console.log('click');
 
   return {
         init: init,
+        set: APIOnOff
     };
 
  })();
 
-$("document").ready(function () {
-    window.Development8SVG.init();
-});
+(function(window) {
+  window.APP.Development8SVG = Development8SVG;
+})(window);
+
