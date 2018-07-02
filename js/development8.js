@@ -2,7 +2,7 @@ var Development8SVG = (function() {
   "use strict"
 
 //DEVELOPMENT8 SCRIPT
-  
+  var i = 0;
   var ready = $.Deferred();
   var FirstSection;
   var FirstSectionFile = 'description/day-01-07.html';
@@ -84,7 +84,7 @@ var Development8SVG = (function() {
     $('#loader').hide(); 
   }
 
-  var i = 0;
+
   var blingbling = function(){
     setTimeout(function () { 
         var element = 'g#'+dev8[i]
@@ -109,7 +109,11 @@ var Development8SVG = (function() {
     FirstSection = $('#day-01-07');
     dev8Parts = $('svg .day, svg .day-group').children();
 
-    if (cfg.clickHandler) {loadClickHandler()};
+    if (cfg.clickHandler) {
+      ready.done(function(){
+        loadClickHandler();
+      });
+    }
     
     if (cfg.blingbling) {
       if (i < dev8.length){
