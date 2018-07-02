@@ -29,6 +29,10 @@
     font-size:25px;
   }
 
+  #infoBox #infoBoxContent #headline.small{
+    text-align: center;
+  }
+
   #infoBox #infoBoxContent #nav{
     position: relative;
     height: 58px;

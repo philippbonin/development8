@@ -24,7 +24,7 @@ var Development8Router = (function() {
           var loadingDev8 = loadHTML('./templates/dev8.html', 'dev8');
 
           loadingDev8.done(function(){
-            window.APP.Development8SVG.init({clickHandler: false,blingbling: true}).done(function(){
+            window.APP.Development8SVG.init({setDefault: false,clickHandler: false,blingbling: true}).done(function(){
                   window.APP.Development8googleCal.getCurrentDev8Day().done(function(currentDev8Day){
                      window.APP.Development8SVG.set(currentDev8Day);
                   });

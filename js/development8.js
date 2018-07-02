@@ -21,6 +21,7 @@ var Development8SVG = (function() {
     ); 
 
   var config = {
+        setDefault: true,
         clickHandler: true,
         blingbling: true
   }
@@ -104,7 +105,12 @@ var Development8SVG = (function() {
     var cfg = $.extend({},config, cfg); 
 
     $('#dev8DescriptionNav').hide();
-    loadFile('description/default.html','default');
+
+    if (cfg.setDefault) {
+      ready.done(function(){
+        loadFile('description/default.html','default');
+      });
+    }
     
     FirstSection = $('#day-01-07');
     dev8Parts = $('svg .day, svg .day-group').children();
