@@ -102,25 +102,24 @@ var Development8SVG = (function() {
 
   var init = function(cfg){
     var cfg = $.extend({},config, cfg); 
+
     $('#dev8DescriptionNav').hide();
     loadFile('description/default.html','default');
+    
+    FirstSection = $('#day-01-07');
+    dev8Parts = $('svg .day, svg .day-group').children();
 
-    if ($('#dev8').length == 0) {
-      $('#dev8').ready(function() {
-        FirstSection = $('#day-01-07');
-        dev8Parts = $('svg .day, svg .day-group').children();
-
-        if (cfg.clickHandler) {loadClickHandler()};
-        if (cfg.blingbling) {
-          if (i < dev8.length){
-            dev8Parts.addClass('off');
-            blingbling();
-          }
-        }else{
-          ready.resolve();
-        }  
-     });
+    if (cfg.clickHandler) {loadClickHandler()};
+    
+    if (cfg.blingbling) {
+      if (i < dev8.length){
+        dev8Parts.addClass('off');
+        blingbling();
+      }
+    }else{
+      ready.resolve();
     }
+
     return ready.promise();
   }
 
