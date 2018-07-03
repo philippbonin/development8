@@ -21,14 +21,16 @@ var Development8Router = (function() {
     router.on('CIOT',
        function () {
           var loadingView = loadHTML('./templates/CIOT.html', 'view');
-          var loadingDev8 = loadHTML('./templates/dev8.html', 'dev8');
 
-          loadingDev8.done(function(){
+          loadingView.done(function(){
+            var loadingDev8 = loadHTML('./templates/dev8.html', 'dev8');
+            loadingDev8.done(function(){
             window.APP.Development8SVG.init({setDefault: false,clickHandler: false,blingbling: true}).done(function(){
                   window.APP.Development8googleCal.getCurrentDev8Day().done(function(currentDev8Day){
                      window.APP.Development8SVG.set(currentDev8Day);
                   });
               });
+            });
           });
         },
         {
@@ -40,11 +42,13 @@ var Development8Router = (function() {
       router.on('*',
        function () {
           var loadingView = loadHTML('./templates/default.html', 'view');
-          var loadingDev8 = loadHTML('./templates/dev8.html', 'dev8');
 
-          loadingDev8.done(function(){
-            window.APP.Development8SVG.init();
-          });
+          loadingView.done(function(){
+            var loadingDev8 = loadHTML('./templates/dev8.html', 'dev8');
+            loadingDev8.done(function(){
+              window.APP.Development8SVG.init();
+            });
+          }); 
         },
         {
           after: function (params) {
