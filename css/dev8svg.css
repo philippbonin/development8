@@ -1,11 +1,10 @@
-svg .label{
-	fill: #ffffff;
-	font-family:Arial;
-	
+svg g#Dev8.pointer{
+	cursor: pointer;
 }
 
-svg .day, .day-group{
-	cursor: pointer;
+svg .label{
+	fill: #ffffff;
+	font-family:Arial;	
 }
 
 svg .day path,svg .day-group path{
@@ -69,3 +68,35 @@ svg .label.circle{
 	font-style:italic;
 	font-weight: bold;
 }
+
+svg path#day-01.active, svg path#day-02.active, svg path#day-03.active, 
+svg path#day-04.active, svg path#day-05.active, svg path#day-06.active, 
+svg path#day-07.active{
+	fill:#0075ff;
+} 
+
+svg path#day-09.active, svg path#day-10.active, svg path#day-11.active, 
+svg path#day-12.active, svg path#day-13.active, svg path#day-14.active{
+	fill:#0075ff;
+} 
+
+svg path#day-16.active, svg path#day-17.active{
+	fill:#f70202;
+} 
+
+svg path#day-18.active, svg path#day-19.active, svg path#day-20.active, 
+svg path#day-21.active, svg path#day-22.active{
+	fill:#f70202;
+} 
+
+svg path#day-24.active, svg path#day-25.active{
+	fill:#f70202;
+} 
+
+svg path#day-26.active, svg path#day-27.active{
+	fill:#f70202;
+} 
+
+svg path#day-28.active{
+	fill:#f70202;
+} 
