@@ -48,6 +48,10 @@ var Development8SVG = (function() {
     element.addClass('active');
   }
 
+  var APIsetSprint = function(item){
+    $('#sprintNumber').text(item);
+  }
+
 
   var setOnOff = function(item){
     if (item instanceof jQuery){
@@ -193,7 +197,8 @@ var Development8SVG = (function() {
   return {
         init: init,
         setGroup: APIOnOffGroup,
-        setDay: APIOnOffDay
+        setDay: APIOnOffDay,
+        setSprint: APIsetSprint
     };
 
  })();

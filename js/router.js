@@ -25,8 +25,9 @@ var Development8Router = (function() {
             loadingDev8.done(function(){
             window.APP.Development8SVG.init({setDefault: false,clickHandler: false,blingbling: true}).done(function(){
                   window.APP.Development8googleCal.getCurrentDev8Day().done(function(currentDev8Day){
-                     window.APP.Development8SVG.setGroup(currentDev8Day.summary);
-                     window.APP.Development8SVG.setDay(currentDev8Day.description);
+                     window.APP.Development8SVG.setGroup(currentDev8Day.details.group);
+                     window.APP.Development8SVG.setDay(currentDev8Day.details.day);
+                     window.APP.Development8SVG.setSprint(currentDev8Day.summary);
                   });
               });
             });
