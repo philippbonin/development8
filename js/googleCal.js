@@ -43,7 +43,7 @@ var Development8googleCal = (function() {
       "timeMin": currentDay+"T00:00:01Z",
     }).then(function(response) {
        if(typeof response.result.items[0] !== 'undefined') {
-        deferred.resolve(response.result.items[0].summary);
+        deferred.resolve(response.result.items[0]);
       }
     });
   }

@@ -7,6 +7,7 @@ var Development8SVG = (function() {
   var FirstSection;
   var FirstSectionFile = 'description/day-01-07.html';
   var dev8Parts;
+  var dev8Days;
   var dev8 = new Array(
       "day-01-07",
       "day-08",
@@ -37,9 +38,16 @@ var Development8SVG = (function() {
     dev8Parts.removeClass('off on');
   }
 
-  var APIOnOff = function(item){
+  var APIOnOffGroup = function(item){
     setOnOff(dev8.indexOf(item));
   }
+
+  var APIOnOffDay = function(item){
+    dev8Days.removeClass('active');
+    var element = $('#dev8').find('#'+item);
+    element.addClass('active');
+  }
+
 
   var setOnOff = function(item){
     if (item instanceof jQuery){
@@ -114,6 +122,9 @@ var Development8SVG = (function() {
     
     FirstSection = $('#day-01-07');
     dev8Parts = $('svg .day, svg .day-group').children();
+    dev8Days = $('#day-1, #day-2, #day-3, #day-4, #day-5, #day-6, #day-7, #day-8, #day-9, #day-10, #day-11, '+
+      '#day-12, #day-13, #day-14, #day-15, #day-16, #day-17, #day-18, #day-19, #day-20, #day-21, #day-22, #day-23, '+
+      '#day-24, #day-25, #day-26, #day-27, #day-28');
 
     if (cfg.clickHandler) {
       ready.done(function(){
@@ -135,6 +146,7 @@ var Development8SVG = (function() {
 
 
   var loadClickHandler = function(){ 
+    $('svg g#Dev8').addClass('pointer');
     $('.day-group,.day').on("click", function() { 
         setOnOff($(this));
     });
@@ -180,7 +192,8 @@ var Development8SVG = (function() {
 
   return {
         init: init,
-        set: APIOnOff
+        setGroup: APIOnOffGroup,
+        setDay: APIOnOffDay
     };
 
  })();
