@@ -10,7 +10,7 @@ var Development8googleCal = (function() {
   var d = new Date();
   var currentDay =  d.getFullYear() +'-'+ (d.getMonth() + 1) +'-'+ d.getDate();
   var deferred = $.Deferred();
-
+console.log(currentDay);
   var getCurrentDev8Day = function(){
     handleClientLoad();
     return deferred.promise();
@@ -39,7 +39,7 @@ var Development8googleCal = (function() {
     return gapi.client.calendar.events.list({
       "calendarId": "e6tmn99nd2d7ts9vuvv7virf04@group.calendar.google.com",
       "alwaysIncludeEmail": "false",
-      "timeMax": currentDay+"T23:59:00Z",
+      "timeMax": currentDay+"T00:00:02Z",
       "timeMin": currentDay+"T00:00:01Z",
     }).then(function(response) {
        if(typeof response.result.items[0] !== 'undefined') {
